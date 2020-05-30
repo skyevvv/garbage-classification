@@ -86,7 +86,7 @@ class Model:
             val_acc = history_fit.history['val_acc']
             loss = history_fit.history['loss']
             val_loss = history_fit.history['val_loss']
-
+            
             epochs = range(1, len(acc) + 1)
             plt.figure("acc")
             plt.plot(epochs, acc, 'r-', label='Training acc')
