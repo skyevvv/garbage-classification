@@ -15,6 +15,7 @@ for i, img_path in enumerate(random.sample(img_list, 6)):
     img = img_to_array(img, dtype=np.uint8)
 
  #   plt.subplot(2, 3, i + 1)
+
  #   plt.imshow(img.squeeze())
 
 #对数据进行分组
