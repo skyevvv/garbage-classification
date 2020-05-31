@@ -4,7 +4,9 @@ garbage-classification
 ------
 #### 一、主要功能<br> 
 #### 二、实现原理<br> 
-![](https://raw.githubusercontent.com/skyevvv/garbage-classification/master/function.png)
+![](https://github.com/skyevvv/garbage-classification/blob/master/function.png)<br>
+  该垃圾分类项目采用深度学习--图像处理模块，采用的是Sequential 序贯模型，序贯模型是函数式模型的简略版，为最简单的线性、从头到尾的结构顺序，不分叉。Sequential模型的基本组件包括① model.add，添加层；② model.compile,模型训练的BP模式设置；③ model.fit，模型训练参数设置 + 训练；④ 模型预测。<br>
+
 #### 三、运行环境<br>  
   win10+cuda9.1+cudnn7+tensorflow-gpu-1.12.0、pytorch1.4.0+keras-2.2.4 <br>  
   
