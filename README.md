@@ -4,7 +4,7 @@ garbage-classification
 ------
 #### 一、主要功能<br> 
 #### 二、实现原理<br> 
-![](https://raw.githubusercontent.com/skyevvv/garbage-classification/master/实现原理图.png)
+![](https://raw.githubusercontent.com/skyevvv/garbage-classification/master/function.png)
 #### 三、运行环境<br>  
   win10+cuda9.1+cudnn7+tensorflow-gpu-1.12.0、pytorch1.4.0+keras-2.2.4 <br>  
   
