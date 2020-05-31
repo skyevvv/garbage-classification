@@ -23,5 +23,5 @@ garbage-classification
   ③调整参数，对模型进行优化<br> 
   
 #### 七、代码运行：<br> 
-  
+  运行 garbage_ui.py 文件前端界面操作即可。
  
