@@ -8,6 +8,7 @@ from keras.applications.imagenet_utils import preprocess_input
 import glob, os, random
 from keras.models import model_from_json
 from tensorflow.keras.preprocessing import image
+from keras.optimizers import SGD
 root_path = 'D:/AI/cnn-garbage'
 labels = {0: 'cardboard', 1: 'glass', 2: 'metal', 3: 'paper', 4: 'plastic', 5: 'trash'}
 
@@ -37,7 +38,7 @@ class Model:
 
     def train_model(self):
         self.model.compile(loss='categorical_crossentropy',
-                           optimizer='adam',
+                           optimizer='adam',#sgd 'adam'
                            metrics=['accuracy'])
         # 自动扩充训练样本
 
