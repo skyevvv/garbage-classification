@@ -25,6 +25,7 @@ class Model:
         self.model.add(Conv2D(filters=64, kernel_size=3, padding='same', activation='relu'))
         self.model.add(MaxPooling2D(pool_size=2))
 
+        
         self.model.add(Conv2D(filters=32, kernel_size=3, padding='same', activation='relu'))
         self.model.add(MaxPooling2D(pool_size=2))
 
